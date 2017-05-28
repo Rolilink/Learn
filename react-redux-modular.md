@@ -50,7 +50,7 @@ feature-module/
 
 #### Organizing Data with Ducks
 
-When organizing the redux or the data part of the module, I like the approach described by erikras on ducks-modular-redux: https://github.com/erikras/ducks-modular-redux
+When organizing the redux or the data part of the module, I like the approach described by erikras on ducks-modular-redux: [https://github.com/erikras/ducks-modular-redux](https://github.com/erikras/ducks-modular-redux)
 
 #### Organizing UI
 
@@ -102,6 +102,6 @@ export default function authRoutes(basePath) {
 ```
 
 ## Resources
-- https://medium.com/lexical-labs-engineering/redux-best-practices-64d59775802e
-- https://jaysoo.ca/2016/02/28/organizing-redux-application/
-- https://marmelab.com/blog/2015/12/17/react-directory-structure.html
+- [https://medium.com/lexical-labs-engineering/redux-best-practices-64d59775802e](https://medium.com/lexical-labs-engineering/redux-best-practices-64d59775802e)
+- [https://jaysoo.ca/2016/02/28/organizing-redux-application/](https://jaysoo.ca/2016/02/28/organizing-redux-application/)
+- [https://marmelab.com/blog/2015/12/17/react-directory-structure.html](https://marmelab.com/blog/2015/12/17/react-directory-structure.html)
