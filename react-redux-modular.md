@@ -13,7 +13,7 @@ app/
   views/
 ```
 
-This organizational patterns is not good for scalability since when our codebase is growing we will have to search and modify through multiple folders. A better approach will be to create a Feature Domain oriented architecture grouping files and objects in a more modular way around a Feature Domain.
+This organizational pattern is not good for scalability. When our codebase grows, we will have to search and modify through multiple folders. A better approach is to create a Feature Domain oriented architecture, grouping files and objects in a modular way around a Feature Domain.
 
 ```
 todos/
@@ -31,7 +31,7 @@ appointments/
 When organizing a module we have to think about some rules:
 - Modules should be self-contained that enclose logic around a features domain, feature specific logic.
 
-- Modules should be loosely coupled, this means it is not concerned or has little concern around the implementation of other modules, which directly translates to not have a hard dependency against other modules.
+- Modules should be loosely coupled. This means the module is not concerned or has little concern around the implementation of other modules, which directly translates to not having a hard dependency on other modules.
 
 - Modules should expose a public API that can be accesible by others modules which could depend on this.
 
